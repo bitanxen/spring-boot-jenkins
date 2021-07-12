@@ -15,4 +15,9 @@ public class IndexController {
     public String getDev1() {
         return "Hello From Dev 1";
     }
+
+    @GetMapping("/dev2")
+    public String getDev2() {
+        return "Hello From Dev 2";
+    }
 }
