@@ -15,4 +15,9 @@ public class IndexController {
     public String getDev1() {
         return "Hello Spring Boot From Dev 1.. This is right";
     }
+
+    @GetMapping("/dev2")
+    public String getDev2() {
+        return "Hello From Dev 2 ";
+    }
 }
