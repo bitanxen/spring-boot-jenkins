@@ -13,7 +13,7 @@ public class IndexController {
 
     @GetMapping("/dev1")
     public String getDev1() {
-        return "Hello From Dev 1";
+        return "Hello Spring Boot From Dev 1";
     }
 
     @GetMapping("/dev2")
