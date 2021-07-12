@@ -18,6 +18,6 @@ public class IndexController {
 
     @GetMapping("/dev2")
     public String getDev2() {
-        return "Hello From Dev 2";
+        return "Hello From Dev 2 ";
     }
 }
