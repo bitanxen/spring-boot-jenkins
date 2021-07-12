@@ -10,4 +10,9 @@ public class IndexController {
     public String getIndex() {
         return "Hello Spring Boot";
     }
+
+    @GetMapping("/dev1")
+    public String getDev1() {
+        return "Hello From Dev 1";
+    }
 }
